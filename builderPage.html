@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="builderPage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+    <a href="templatePage.html" class="back-button">&#8592;</a>
+    </div>
+    <div class="container-builder">
+        <div class="title">Personal Info</div>
+        <form id="resumeForm" action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details" for="name">Name</span>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details" for="email">Email</span>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details" for="phone">Phone</span>
+                    <input type="tel" placeholder="Enter your phone number" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details" for="linkedin">Linkedin</span>
+                    <input type="url" placeholder="Enter your Linkedin url" required>
+                </div>
+            </div>
+
+            <div class="title">Education</div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details" for="degree">Degree</span>
+                    <input type="text" placeholder="Enter your Degree" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details" for="uni">University</span>
+                    <input type="text" placeholder="Enter your Institution" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details" for="GPA">GPA</span>
+                    <input type="number" placeholder="Enter your GPA (optional)">
+                </div>
+
+                <div class="input-box">
+                    <span class="details" for="date">Graduation Date</span>
+                    <input type="date" placeholder="Graduation Date" required>
+                </div>
+            </div>
+
+            <div class="title">Professional Experience</div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details" for="role">Role</span>
+                    <input type="text" placeholder="Job Title">
+                </div>
+
+                <div class="input-box">
+                    <span class="details" for="company">Company</span>
+                    <input type="text" placeholder="Company Name">
+                </div>
+
+                <div class="input-box">
+                    <span class="details" for="responsibilities">Responsibilities</span>
+                    <input type="text" placeholder="Responsibilities" required>
+                </div>
+            </div>
+
+            <div class="title">Skills</div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details" for="skill">Skill #1</span>
+                    <input type="text" placeholder="Skill#1">
+                </div>
+
+                <div class="input-box">
+                    <span class="details" for="skill">Skill #2</span>
+                    <input type="text" placeholder="Skill#2">
+                </div>
+
+                <div class="input-box">
+                    <span class="details" for="skill">Skill #3</span>
+                    <input type="text" placeholder="Skill#3">
+                </div>
+            </div>
+
+            <div class="title">Projects</div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details" for="project">Project Name</span>
+                    <input type="text" placeholder="Brief description1">
+                </div>
+
+                <div class="input-box">
+                    <span class="details" for="project">Project Name</span>
+                    <input type="text" placeholder="Brief description2">
+                </div>
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Enter">
+            </div>
+        </form>
+
+        <div id="resumeOutput"></div>
+        <script src="resumeGenerator.js"></script>
+
+
+
+    </div>
+
+</body>
+
+</html>
