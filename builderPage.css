@@ -16,31 +16,29 @@ body {
     margin-bottom: 40px;
 }
 
-/* Back Button */
-/* Styling for the back button */
 .back-button {
     position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
     top: 20px;
     left: 20px;
     padding: 10px 20px;
-    color: #36454F; /* White text */
+    color: #36454F; 
     text-decoration: none;
     border-radius: 8px;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Animation on hover */
 .back-button:hover {
-    background-color: #008080; /* Ancient pink on hover */
-    color: #f5f5f5; /* Teal text on hover */
-    transform: scale(1.1); /* Slightly increases the size */
+    background-color: #008080; 
+    color: #f5f5f5; 
+    transform: scale(1.1); 
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* When clicked */
 .back-button:active {
-    transform: scale(0.95); /* Slightly decreases the size */
-    background-color: #208181; /* Slightly darker ancient pink when clicked */
+    transform: scale(0.95); 
+    background-color: #208181; 
 }
 
 
